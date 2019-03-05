@@ -6,3 +6,5 @@ A backup collection of my dotfiles.
 * Vim-Plug (https://github.com/junegunn/vim-plug)
 * A willingness to break things
 
+# Install
+* sudo ./install.sh
