@@ -3,7 +3,7 @@
 echo Probably should be root...just saying
 
 #install NeoVim
-apt install nvim
+apt install neovim
 
 #install Plug
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
