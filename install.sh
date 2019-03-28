@@ -1,6 +1,6 @@
 #!/bin/bash
 #Install Script for .dotfiles
-echo Probably should be root...just saying'
+echo Probably should be root...just saying
 
 #install NeoVim
 apt install nvim
