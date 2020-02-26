@@ -28,6 +28,8 @@ Plug 'kien/ctrlp.vim'
 
 Plug 'sheerun/vim-polyglot'
 
+Plug 'elzr/vim-json'
+
 Plug 'jiangmiao/auto-pairs'
 
 Plug 'ryanoasis/vim-devicons'
