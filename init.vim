@@ -40,6 +40,9 @@ set number
 "Syntax highlighting
 syntax enable
 
+"Fixes cursor positon
+set virtualedit=onemore
+
 colorscheme delek
 
 "Airline Theme
