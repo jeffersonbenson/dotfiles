@@ -3,7 +3,7 @@
 echo Probably should be root...just saying
 
 #install NeoVim
-apt install neovim
+apt install neovim zsh
 
 #install Plug
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -17,6 +17,14 @@ echo "Installing plugins..."
 
 echo "You may need to install a Nerd Font in order for everything to work okay"
 nvim +PlugInstall
+
+#Copy zsh config
+ln .zshrc ~/.zshrc
+echo "Setting up Oh My Zsh"
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+echo "copying Powerlevel10k theme"
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
+
 
 echo "Applying Windows Terminal customizations"
 echo "Modify as necessary: "
