@@ -16,4 +16,8 @@ echo "Init file copied!"
 echo "Installing plugins..."
 
 echo "You may need to install a Nerd Font in order for everything to work okay"
-nvim +PluginInstall
+nvim +PlugInstall
+
+echo "Applying Windows Terminal customizations"
+echo "Modify as necessary: "
+echo "mv settings.json /mnt/c/Users/JeffBenson/AppData/Local/Packages/Microsoft.WindowsTerminal<etc>/LocalState/settings.json"

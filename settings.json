@@ -1,0 +1,187 @@
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+    "rowsToScroll": 1,
+    "profiles": [
+        {
+            // Make changes here to the powershell.exe profile
+            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+            "name": "Windows PowerShell",
+            "commandline": "powershell.exe",
+            "hidden": false,
+            "useAcrylic": false,
+            "colorScheme": "MaterialDark",
+            "fontSize": 11,
+            "backgroundImage": "ms-appdata:///Local/america.png",
+            "backgroundImageOpacity": 1,
+            "backgroundImageStretchMode": "fill",
+            "backgroundImageAlignment": "topRight"
+        },
+        {
+            // Make changes here to the cmd.exe profile
+            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "name": "cmd",
+            "commandline": "cmd.exe",
+            "hidden": true,
+            "useAcrylic": false,
+            "experimental.retroTerminalEffect": true
+        },
+        {
+            "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+            "hidden": false,
+            "name": "Ubuntu",
+            "source": "Windows.Terminal.Wsl",
+            "useAcrylic": false,
+            "colorScheme": "nord",
+            "commandline": "wsl ~",
+            "fontFace": "Hack NF",
+            "fontSize": 10,
+            // "backgroundImage": "ms-appdata:///Local/stealth.png",
+            "backgroundImageOpacity": 1,
+            "backgroundImageStretchMode": "fill",
+            "backgroundImageAlignment": "topRight"
+        },
+        {
+            "guid": "{a8202b0e-781a-5dab-98e2-e9d469a63619}",
+            "hidden": false,
+            "name": "CentOS7",
+            "source": "Windows.Terminal.Wsl",
+            "useAcrylic": false,
+            "colorScheme": "Firewatch",
+            "commandline": "wsl ~ -d CentOS7",
+            "fontFace": "Hack NF",
+            "fontSize": 10,
+            "backgroundImage": "ms-appdata:///Local/motorbike.png",
+            "backgroundImageOpacity": 1,
+            "backgroundImageStretchMode": "uniformToFill",
+            "backgroundImageAlignment": "topRight"
+        },
+        {
+            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "hidden": true,
+            "name": "Azure Cloud Shell",
+            "source": "Windows.Terminal.Azure",
+            "colorScheme": "MaterialDark"
+        },
+        {
+            "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+            "hidden": false,
+            "name": "PowerShell Core",
+            "source": "Windows.Terminal.PowershellCore"
+        }
+    ],
+    // Add custom color schemes to this array
+    "schemes": [
+        {
+            "name": "MaterialDark",
+            "black": "#212121",
+            "red": "#b7141f",
+            "green": "#457b24",
+            "yellow": "#f6981e",
+            "blue": "#134eb2",
+            "purple": "#560088",
+            "cyan": "#0e717c",
+            "white": "#efefef",
+            "brightBlack": "#424242",
+            "brightRed": "#e83b3f",
+            "brightGreen": "#7aba3a",
+            "brightYellow": "#ffea2e",
+            "brightBlue": "#54a4f3",
+            "brightPurple": "#aa4dbc",
+            "brightCyan": "#26bbd1",
+            "brightWhite": "#d9d9d9",
+            "background": "#232322",
+            "foreground": "#e5e5e5"
+        },
+        {
+            "name": "Ubuntu",
+            "black": "#2e3436",
+            "red": "#cc0000",
+            "green": "#4e9a06",
+            "yellow": "#c4a000",
+            "blue": "#3465a4",
+            "purple": "#75507b",
+            "cyan": "#06989a",
+            "white": "#d3d7cf",
+            "brightBlack": "#555753",
+            "brightRed": "#ef2929",
+            "brightGreen": "#8ae234",
+            "brightYellow": "#fce94f",
+            "brightBlue": "#729fcf",
+            "brightPurple": "#ad7fa8",
+            "brightCyan": "#34e2e2",
+            "brightWhite": "#eeeeec",
+            "background": "#300a24",
+            "foreground": "#eeeeec"
+        },
+        {
+            "name": "DimmedMonokai",
+            "black": "#3a3d43",
+            "red": "#be3f48",
+            "green": "#879a3b",
+            "yellow": "#836c19",
+            "blue": "#4f76a1",
+            "purple": "#855c8d",
+            "cyan": "#578fa4",
+            "white": "#b9bcba",
+            "brightBlack": "#888987",
+            "brightRed": "#fb001f",
+            "brightGreen": "#0f722f",
+            "brightYellow": "#c47033",
+            "brightBlue": "#186de3",
+            "brightPurple": "#fb0067",
+                "brightCyan": "#2e706d",
+            "brightWhite": "#fdffb9",
+            "background": "#1f1f1f",
+            "foreground": "#b9bcba"
+        },
+        {
+            "name": "Firewatch",
+            "black": "#585f6d",
+            "red": "#d95360",
+            "green": "#5ab977",
+            "yellow": "#dfb563",
+            "blue": "#4d89c4",
+            "purple": "#d55119",
+            "cyan": "#44a8b6",
+            "white": "#e6e5ff",
+            "brightBlack": "#585f6d",
+            "brightRed": "#d95360",
+            "brightGreen": "#5ab977",
+            "brightYellow": "#dfb563",
+            "brightBlue": "#4c89c5",
+            "brightPurple": "#d55119",
+            "brightCyan": "#44a8b6",
+            "brightWhite": "#e6e5ff",
+            "background": "#1e2027",
+            "foreground": "#9ba2b2"
+        },
+        {
+            "name": "nord",
+            "background": "#2e3440",
+            "foreground": "#d8dee9",
+            "black": "#3b4252",
+            "blue": "#81a1c1",
+            "brightBlack": "#4c566a",
+            "brightBlue": "#81a1c1",
+            "brightCyan": "#8fbcbb",
+            "brightGreen": "#a3be8c",
+            "brightPurple": "#b48ead",
+            "brightRed": "#bf616a",
+            "brightWhite": "#eceff4",
+            "brightYellow": "#ebcb8b",
+            "cyan": "#88c0d0",
+            "green": "#a3be8c",
+            "purple": "#b48ead",
+            "red": "#bf616a",
+            "white": "#e5e9f0",
+            "yellow": "#ebcb8b"
+        }
+    ],
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+"keybindings": [
+    ]
+}
