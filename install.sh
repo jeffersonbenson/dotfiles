@@ -24,7 +24,7 @@ echo "Setting up Oh My Zsh"
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 echo "copying Powerlevel10k theme"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
-
+echo "restart the terminal, and run p10k configure to finish"
 
 echo "Applying Windows Terminal customizations"
 echo "Modify as necessary: "

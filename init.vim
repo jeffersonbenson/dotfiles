@@ -22,6 +22,8 @@ Plug 'vim-airline/vim-airline-themes'
 
 Plug 'sheerun/vim-polyglot'
 
+Plug 'pprovost/vim-ps1'
+
 Plug 'elzr/vim-json'
 
 Plug 'jiangmiao/auto-pairs'
@@ -38,7 +40,11 @@ call plug#end()
 
 filetype plugin on
 set nocompatible
-set mouse=a
+"set mouse=a
+set foldmethod=manual
+set foldlevel=999
+"imap <Tab> <C-P>
+autocmd BufRead,BufNewFile *.md setlocal spell
 
 ""CoC config
 "set hidden
