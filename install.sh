@@ -19,7 +19,7 @@ echo "You may need to install a Nerd Font in order for everything to work okay"
 nvim +PlugInstall
 
 #Copy zsh config
-ln .zshrc ~/.zshrc
+ln zshrc ~/.zshrc
 echo "Setting up Oh My Zsh"
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 echo "copying Powerlevel10k theme"

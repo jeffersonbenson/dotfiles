@@ -74,6 +74,8 @@ set showtabline=2
 set noshowmode
 set formatoptions-=cro
 set clipboard=unnamedplus
+set splitbelow
+set splitright
 
 "YAML tab indentation
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
