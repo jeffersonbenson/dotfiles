@@ -1,6 +1,7 @@
 #!/bin/bash
 #Install Script for .dotfiles
 echo Probably should be root...just saying
+sleep 5
 
 #install NeoVim
 apt install neovim zsh
